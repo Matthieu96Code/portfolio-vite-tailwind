@@ -1,0 +1,293 @@
+/* Font import */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* font-family: 'Barlow', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+
+/* variable */
+
+:root {
+  --dark-primary-color:#110034;
+  --dark-secondary-color:#291948;
+  --ligh-primary-color:#f25a0d;
+  --background-primary-color:#f5f5f5;
+  --background-secondary-color:#f1f1f1;
+  --desktop-x-padding:6%;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+.header {
+    color: var(--background-primary-color);
+    background-image: url(../assets/images/A\ young\ African\ office.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    min-height: 100vh;
+}
+
+.header .navbar {
+  padding: 12px var(--desktop-x-padding); 
+  background-color: var(--dark-primary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*  */
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  /* background: rgba(17,0,52,0.7); */
+  /* border-bottom: 1px solid #fff; */
+
+
+}
+
+.header .navbar .header-logo {
+  flex-grow: 1;
+  display: flex;
+}
+
+.header .navbar .header-logo img {
+  width: 48px;
+}
+
+.header .navbar ul {
+    display: none;
+}
+
+.header .navbar a {
+  color: var(--background-primary-color);
+}
+
+.header .hero-section {
+  /* background: rgba(17,0,52,0.8); */
+  /* background-color: var(--dark-secondary-color); */
+  padding: 18px var(--desktop-x-padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  box-shadow: inset 0 0 0 1000px rgba(17,0,52,0.8);
+}
+
+.header .hero-section h1 {
+  font-family: 'Poppins', sans-serif;
+  margin: 84px 0 0 0;
+  font-size: 48px;
+}
+
+.header .hero-section h2 {
+  font-family: 'Poppins', sans-serif;
+  padding: 30px 0;
+  font-size: 48px;
+}
+
+.header .hero-section p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 30px 0;
+}
+
+.header .hero-section button {
+  width: fit-content;
+  color: var(--background-primary-color);
+  padding: 16px;
+  background-color: var(--ligh-primary-color);
+  border: solid 1px var(--ligh-primary-color);
+  border-radius: 6px;
+  margin-bottom: 48px;
+  font-size: 18px;
+  font-family: 'Barlow', sans-serif;
+}
+
+/* projects-section */
+
+.projects-section {
+  background-color: var(--background-primary-color);
+  padding: 48px 0 12px 0;
+}
+
+.projects-section h3 {
+  text-align: center;
+}
+
+.projects {
+  /* background-color: var(--dark-secondary-color); */
+  padding: 18px;
+}
+
+.projects .project-container {
+  margin: 12px 0;
+  padding: 24px 12px;
+  background-color: var(--background-primary-color);
+  display: grid;
+  /* border-radius: 6px; */
+  border-top: solid 1px var(--ligh-primary-color);
+  /* border-right: solid 1px var(--ligh-primary-color); */
+}
+
+.projects .project-container .project-title {
+  /* text-align: center; */
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--dark-primary-color);
+  padding: 12px 0;
+}
+
+.projects .project-container .project-description {
+  font-size: 1rem;
+  color: var(--dark-secondary-color);
+  padding: 12px 0;
+}
+
+.projects .project-container .project-technologies {
+  display: flex;
+  font-size: 0.8rem;
+  color: var(--dark-secondary-color);
+  padding: 12px 0;
+  gap: 9px;
+  flex-wrap: wrap;
+}
+
+.projects .project-container .project-technologies img {
+  width: 27px;
+}
+
+  .projects .project-container .project-links {
+  display: flex;
+  gap: 12px;
+  padding: 12px 0;
+}
+
+.projects .project-container .project-links button{
+  height: fit-content;
+  background-color: var(--ligh-primary-color);
+  border: 1px solid var(--ligh-primary-color);
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+
+.projects .project-container .project-links a {
+  font-size: 16px;
+  color: white;
+}
+
+.projects .project-container .project-image{
+  margin: auto;
+  padding: 12px 0;
+  width: 90%;
+}
+
+/* skills-section */
+
+.skills-section .skills {
+  padding: 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 24px 16px;
+}
+
+.skills-section .skill-container {
+  background-color: var(--background-secondary-color);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.skills-section .skill-container .skill-name {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--dark-primary-color);
+  text-align: center;
+}
+
+.skills-section .skill-container .skill-info {
+  display: none;
+}
+
+.skills-section .skill-container .skill-image {
+  padding: 12px 0;
+  width: 30px;
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--dark-primary-color);
+  color: var(--background-primary-color);
+  display: flex;
+  padding: 24px;
+}
+
+.footer a {
+  color: var(--background-primary-color);
+}
+
+.footer .footer-social-media {
+  display: flex;
+  gap: 12px;
+}
+
+@media (min-width: 768px) {
+  
+  .header .navbar ul {
+    display: flex;
+    gap: 12px;
+    padding: 6px 12px;
+  }
+
+  .header .navbar ul a:hover {
+    border-bottom: solid 2px var(--ligh-primary-color);
+  }
+  
+  .header .navbar i {
+    display: none;
+  }
+  .projects .project-container {
+    grid-template: auto auto auto auto / 2fr 3fr;
+  }
+  
+  .projects .project-container .project-image {
+    grid-area: 1 / 2 / 5 / 3;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  .header .navbar a.header-logo {
+
+  }
+
+
+  .projects {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 18px;
+  }
+
+}
