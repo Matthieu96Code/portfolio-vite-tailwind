@@ -5,52 +5,49 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/369e7aa1b7.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <!-- https://rad-semifreddo-1dd8ee.netlify.app/ -->
     <header class="header">
         <nav class="navbar">
-            <a href="/">MattCorp</a>
+            <a class="header-logo" href=""><img src="./assets/images/matthcorp2.png" alt="matthcorp"></a>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contacts">Contacts</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contacts">Contacts</a></li>
             </ul>
             <button type="button">Dark theme</button>
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark"></i>
         </nav>
         <div class="hero-section">
-            <h1>Hey, I'm Matthieu</h1>
+            <h1>Hey, I'm <span>Matthieu</span></h1>
             <h2>I'm a software developer</h2>
-            <p></p>
+            <p>Prepare to be captivated as I embark on crafting an extraordinary web app, seamlessly blending my expertise in JavaScript, React, Redux, Ruby, and Ruby on Rails. But that's just the tip of the iceberg – I'm an avid explorer of emerging technologies, fueled by a fervent passion for gaming and artificial intelligence. Brace yourself for an innovative journey that promises to redefine your digital experience, one line of code at a time.</p>
             <button type="button">Download my CV</button>
         </div>
     </header>
     <main>
-        <div class="work-section">
-            <div>
-                <h3>My Recent <span>Projects</span></h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus aliquid nobis tempore maxime iste similique, doloremque facere ducimus adipisci incidunt illum expedita natus itaque! Nihil accusantium temporibus iusto quod eligendi.</p>
-                <ul>
-                  <li>Responsiveness</li>
+        <div class="projects-section">
+          <h3>My Recent <span>Projects</span></h3>
+            <div class="projects"></div>
+                  <!-- <li>Responsiveness</li>
                   <li>Security</li>
                   <li>Speed</li>
-                  <li>user experience</li>
-                </ul>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, voluptatum.
-                </p>
-            </div>
-            <div>
-              <img src="" alt="">
-            </div>
+                  <li>user experience</li> -->
         </div>
-        <div class="">
-            About
+        <div class="skills-section">
+          <h3>Skills</h3>
+          <div class="skills"></div>
         </div>
     </main>
     <footer class="footer">
+      <div>
+        <img src="" alt="">
+      </div>
       <div>
         <h3>Quick Link</h3>
         <ul>
@@ -61,7 +58,22 @@
             <li><a href="#contacts">Contacts</a></li>
         </ul>
       </div>
+      <div>
+        <h3>Contacts Me</h3>
+        <ul>
+            <li><a href="mailto:senoumatthieu96@gmail.com">senoumatthieu96@gmail.com</a></li>
+            <li><a href="+22893085555">+228 93 08 55 55</a></li>
+            <li><a href="+22899551966">+228 99 55 19 66</a></li>
+        </ul>
+        <ul class="footer-social-media">
+          <li><a href=""><i class="fa-brands fa-telegram"></i></a></li>
+          <li><a href="https://wa/+22893085555"><i class="fa-brands fa-whatsapp"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-facebook-messenger"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+      </div>
     </footer>
-    <script type="module" src="/main.js"></script>
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>
