@@ -9,20 +9,30 @@
     <script src="https://kit.fontawesome.com/369e7aa1b7.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="home">
         <nav class="navbar">
-            <a class="header-logo" href=""><img src="./assets/images/matthcorp2.png" alt="matthcorp"></a>
+            <a class="header-logo" href="#home"><img src="./assets/images/matthcorp2.png" alt="matthcorp"></a>
             <ul>
               <li><a href="#home">Home</a></li>
-              <li><a href="#skills">Skills</a></li>
               <li><a href="#projects">Projects</a></li>
-              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <!-- <li><a href="#about">About</a></li> -->
               <li><a href="#contacts">Contacts</a></li>
             </ul>
-            <button type="button">Dark theme</button>
-            <i class="fa-solid fa-bars"></i>
-            <i class="fa-solid fa-xmark"></i>
-        </nav>
+            <!-- <button type="button">Dark theme</button> -->
+            <i class="fa-solid fa-bars mobile-menu-btn"></i>
+          </nav>
+          <nav class="mobile-menu">
+            <a class="header-logo" href="#home"><img src="./assets/images/matthcorp2.png" alt="matthcorp"></a>
+            <i class="fa-solid fa-xmark mobile-menu-close"></i>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <!-- <li><a href="#about">About</a></li> -->
+              <li><a href="#contacts">Contacts</a></li>
+            </ul>
+          </nav>
         <div class="hero-section">
             <h1>Hey, I'm <span>Matthieu</span></h1>
             <h2>I'm a software developer</h2>
@@ -31,7 +41,7 @@
         </div>
     </header>
     <main>
-        <div class="projects-section">
+        <div class="projects-section" id="projects">
           <h3>My Recent <span>Projects</span></h3>
             <div class="projects"></div>
                   <!-- <li>Responsiveness</li>
@@ -39,39 +49,48 @@
                   <li>Speed</li>
                   <li>user experience</li> -->
         </div>
-        <div class="skills-section">
+        <div class="skills-section" id="skills">
           <h3>Skills</h3>
           <div class="skills"></div>
         </div>
     </main>
-    <footer class="footer">
-      <div>
-        <img src="" alt="">
+    <footer class="footer-section" id="contacts">
+      <div class="footer">
+        <div class="footer-logo">
+          <img src="./assets/images/matthcorp2.png" alt="logo">
+        </div>
+        <div  class="footer-links">
+          <h3>Quick Link</h3>
+          <ul class="footer-links-list">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <!-- <li><a href="#about">About</a></li> -->
+              <!-- <li><a href="#contacts">Contacts</a></li> -->
+          </ul>
+        </div>
+        <div class="footer-contacts">
+          <h3>Contact Me</h3>
+          <ul>
+              <li><a href="mailto:senoumatthieu96@gmail.com">senoumatthieu96@gmail.com</a></li>
+              <li><a href="+22893085555">+228 93 08 55 55</a></li>
+              <li><a href="+22899551966">+228 99 55 19 66</a></li>
+          </ul>
+          <ul class="footer-social-media">
+            <li><a href=""><i class="fa-brands fa-telegram"></i></a></li>
+            <li><a href="https://wa/+22893085555"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <!-- <li><a href=""><i class="fa-brands fa-facebook"></i></a></li> -->
+            <li><a href=""><i class="fa-brands fa-facebook-messenger"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+          </ul>
+        </div>
+        <div  class="footer-anime">
+          <img src="./assets/images/An young Africa profil.png" alt="anime">
+        </div>
       </div>
-      <div>
-        <h3>Quick Link</h3>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contacts">Contacts</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3>Contacts Me</h3>
-        <ul>
-            <li><a href="mailto:senoumatthieu96@gmail.com">senoumatthieu96@gmail.com</a></li>
-            <li><a href="+22893085555">+228 93 08 55 55</a></li>
-            <li><a href="+22899551966">+228 99 55 19 66</a></li>
-        </ul>
-        <ul class="footer-social-media">
-          <li><a href=""><i class="fa-brands fa-telegram"></i></a></li>
-          <li><a href="https://wa/+22893085555"><i class="fa-brands fa-whatsapp"></i></a></li>
-          <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
-          <li><a href=""><i class="fa-brands fa-facebook-messenger"></i></a></li>
-          <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-        </ul>
+      <div class="copyright">
+        <hr>
+        <p>copyright</p>
       </div>
     </footer>
     <script type="module" src="./js/main.js"></script>
