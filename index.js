@@ -387,7 +387,27 @@ const gymElite = {
         {id: 2, name: 'Elementor', link: 'https://elementor.com/'},
     ]
 }
-const projectList = [togovilleJazz, gymElite, spaceTravelersHub];
+
+const bookstoreApp = {
+    id: 5,
+    title: 'Bookstore',
+    description: 'Bookstore is a straightforward website that showcases a book list and offers functionality to add and remove books. With a user-friendly interface, users can easily navigate through the displayed books, seamlessly add new entries, and remove existing ones, making it a convenient platform for managing book collections.',
+    img: './assets/images/bookstore.jpg',
+    alt: 'Bookstore project picture',
+    link: 'bookstore-manager.netlify.app',
+    source: 'https://github.com/Matthieu96Code/bookstore',
+    technologies: [html, css, js, react, redux],
+    technologies2: [
+        {id: 1, name: 'HTML', link: 'https://developer.mozilla.org/en-US/docs/Web/HTML'},
+        {id: 2, name: 'CSS', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS'},
+        {id: 3, name: 'JavaScript', link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'},
+        {id: 4, name: 'React', link: 'https://reactjs.org/'},
+        {id: 5, name: 'Redux', link: 'https://redux.js.org/'},
+        {id: 6, name: 'Rest API', link: 'https://developer.mozilla.org/en-US/docs/Glossary/REST'},
+    ]
+}
+
+const projectList = [togovilleJazz, bookstoreApp, spaceTravelersHub, gymElite];
 
 // ---------------------------
 // Projects list population   |

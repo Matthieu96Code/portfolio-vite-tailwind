@@ -85,7 +85,7 @@ const bookstoreApp = {
     description: 'Bookstore is a straightforward website that showcases a book list and offers functionality to add and remove books. With a user-friendly interface, users can easily navigate through the displayed books, seamlessly add new entries, and remove existing ones, making it a convenient platform for managing book collections.',
     img: bookstore,
     alt: 'Bookstore project picture',
-    link: 'https://bookstore-vyyv.onrender.com',
+    link: 'bookstore-manager.netlify.app',
     source: 'https://github.com/Matthieu96Code/bookstore',
     technologies: [
         {id: 1, name: 'HTML', link: 'https://developer.mozilla.org/en-US/docs/Web/HTML'},
@@ -119,7 +119,7 @@ const spaceTravelersHub = {
     description: 'Space Traveler\'s Hub is a dynamic website built with React and Redux. It offers an immersive platform for users to explore space missions and rockets. Users can join missions, reserve rockets, and access detailed information about each mission and rocket, creating an engaging experience for space enthusiasts and aspiring astronauts.',
     img: rockets,
     alt: 'Space Traveler\'s Hub project picture',
-    link: '',
+    link: 'https://spacejourneyhub.netlify.app',
     source: 'https://github.com/Matthieu96Code/spaceTravelersHub',
     technologies: [html, css, js, react, redux],
     technologies2: [
