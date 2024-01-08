@@ -1,11 +1,11 @@
-import jazz from '../assets/images/jazz.jpg';
-import rockets from '../assets/images/rockets.jpg';
-import gymelite from '../assets/images/fitness.jpg';
-import leaderboard from '../assets/images/Leader board.jpg';
-import bookstore from '../assets/images/bookstore.jpg';
-import currencies from '../assets/images/currencies metrics.jpg';
-import mathematics from '../assets/images/Math magicians.jpg';
-import budget from '../assets/images/Budget app.jpg';
+import jazz from './assets/images/jazz.jpg';
+import rockets from './assets/images/rockets.jpg';
+import gymelite from './assets/images/fitness.jpg';
+import leaderboard from './assets/images/Leader board.jpg';
+import bookstore from './assets/images/bookstore.jpg';
+import currencies from './assets/images/currencies metrics.jpg';
+import mathematics from './assets/images/Math magicians.jpg';
+import budget from './assets/images/Budget app.jpg';
 import { html, css, js, wordpress, react, redux } from './skillsList'
 
 
