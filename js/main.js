@@ -1,6 +1,6 @@
-import mobileMenu from "./mobileMenu";
-import projectsPopulation from "./projectsPopulation";
-import skillsPopulation from "./skillsPopulation";
+import mobileMenu from "./mobileMenu.js";
+import projectsPopulation from "./projectsPopulation.js";
+import skillsPopulation from "./skillsPopulation.js";
 
 projectsPopulation();
 skillsPopulation();
