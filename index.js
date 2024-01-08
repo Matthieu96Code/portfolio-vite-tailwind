@@ -360,7 +360,7 @@ const spaceTravelersHub = {
     description: 'Space Traveler\'s Hub is a dynamic website built with React and Redux. It offers an immersive platform for users to explore space missions and rockets. Users can join missions, reserve rockets, and access detailed information about each mission and rocket, creating an engaging experience for space enthusiasts and aspiring astronauts.',
     img: './assets/images/rockets.jpg',
     alt: 'Space Traveler\'s Hub project picture',
-    link: '',
+    link: 'https://spacejourneyhub.netlify.app',
     source: 'https://github.com/Matthieu96Code/spaceTravelersHub',
     technologies: [html, css, js, react, redux],
     technologies2: [
