@@ -39,4 +39,84 @@ a {
 
 .about-me {
     background-color: var(--background-primary-color);
+    padding: var(--desktop-x-padding);
+    /* box-shadow: 10px 5px 5px 10px red; */
+}
+
+.about-me h3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    color: var(--ligh-primary-color);
+    padding: 0 0 24px 0;
+}
+
+.about-me p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.about-hr {
+    padding: 0 20%;
+    margin: auto;
+    background-color: var(--background-primary-color);
+}
+
+main hr {
+    border: none;
+    height: 6px;
+    background-color: var(--ligh-primary-color);
+}
+
+.contacts-section {
+    background-color: var(--background-primary-color);
+    padding: var(--desktop-x-padding);
+}
+
+.contacts-section .call-to-action {
+    padding: 0 0 48px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    color: var(--dark-primary-color);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.contacts-section .contacts-form  input,
+.contacts-section .contacts-form  textarea {
+    font-size: 16px;
+    width: 80%;
+    padding: 6px;
+    border: 1px solid var(--background-secondary-color);
+    border-radius: 3px;
+    margin-bottom: 24px;
+}
+
+.contacts-section .contacts-form button {
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    background-color: var(--ligh-primary-color);
+    border: 1px solid var(--ligh-primary-color);
+    border-radius: 3px;
+    color: var(--background-primary-color);
+    padding: 6px 24px;
+}
+
+@media (min-width: 768px) {
+    .contacts-section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contacts-section .call-to-action {
+        width: 40%;
+    }
+
+    .contacts-section .contacts-form {
+    width: 50%;
+    }
+}
+@media (min-width: 1024px) {
+
+    
 }
