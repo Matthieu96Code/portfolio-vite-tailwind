@@ -87,9 +87,14 @@ main hr {
     font-size: 16px;
     width: 80%;
     padding: 6px;
-    border: 1px solid var(--background-secondary-color);
+    border: 2px solid var(--background-secondary-color);
     border-radius: 3px;
     margin-bottom: 24px;
+}
+
+.contacts-section .contacts-form  input:hover,
+.contacts-section .contacts-form  textarea:hover {
+    border: 2px solid var(--ligh-primary-color)
 }
 
 .contacts-section .contacts-form button {
@@ -100,7 +105,15 @@ main hr {
     border-radius: 3px;
     color: var(--background-primary-color);
     padding: 6px 24px;
+    cursor: pointer;
+    transition: 400ms;
 }
+
+.contacts-section .contacts-form button:hover {
+    background-color: var(--background-primary-color);
+    color: var(--ligh-primary-color)
+}
+
 
 @media (min-width: 768px) {
     .contacts-section {
