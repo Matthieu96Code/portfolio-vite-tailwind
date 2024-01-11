@@ -362,7 +362,7 @@ a {
 
 .footer-section {
   background-color: var(--dark-primary-color);
-  color: var(--background-primary-color);
+  color: var(--ligh-primary-color);
 }
 
 .footer-section .footer {
@@ -378,6 +378,10 @@ a {
   color: var(--background-primary-color);
 }
 
+.footer-section .footer a:hover {
+  color: var(--ligh-primary-color);
+}
+
 .footer-section .footer li {
   margin-top: 9px;
 }
@@ -386,6 +390,46 @@ a {
   display: flex;
   gap: 12px;
 }
+
+.footer-section .footer .footer-social-media .fa-telegram:hover {
+  color: dodgerblue;
+  background-color: var(--background-primary-color);
+  border-radius: 50%;
+  scale: 1.2;
+  transition: 400ms;
+}
+
+.footer-section .footer .footer-social-media .fa-whatsapp:hover {
+  background-color: green;
+  color: var(--background-primary-color);
+  border-radius: 50%;
+  scale: 1.2;
+  transition: 400ms;
+}
+
+.footer-section .footer .footer-social-media .fa-linkedin:hover {
+  color:royalblue;
+  background-color: var(--background-primary-color);
+  scale: 1.2;
+  transition: 400ms;
+}
+
+.footer-section .footer .footer-social-media .fa-facebook-messenger:hover {
+  color:slateblue;
+  background:white;
+  border-radius: 50%;
+  scale: 1.2;
+  transition: 400ms;
+}
+
+.footer-section .footer .footer-social-media .fa-twitter:hover {
+  background-color:dodgerblue;
+  color: var(--background-primary-color);
+  border-radius: 6px;
+  scale: 1.2;
+  transition: 400ms;
+}
+
 
 .footer-section .footer .footer-anime img {
   width: 150px;
@@ -399,6 +443,7 @@ a {
 .footer-section .copyright p {
   text-align: center;
   padding: 24px 0;
+  color: var(--background-primary-color);
 }
 
 @media (min-width: 768px) {
