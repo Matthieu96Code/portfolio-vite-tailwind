@@ -31,3 +31,12 @@ li {
 a {
     text-decoration: none;
 }
+
+.header.contacts-page {
+    background-image: none;
+    min-height: 66px;
+}
+
+.about-me {
+    background-color: var(--background-primary-color);
+}
