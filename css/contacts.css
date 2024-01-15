@@ -32,6 +32,20 @@ a {
     text-decoration: none;
 }
 
+@keyframes pop-fade-in {
+    from {transform: scale(0); opacity: 0;}
+    to {transform: scale(1); opacity: 1;}
+}
+
+.about-me *, 
+.contacts-section *,
+.about-hr * {
+    animation-name: pop-fade-in;
+    animation-duration: 2s; 
+}
+
+/* Header */
+
 .header.contacts-page {
     background-image: none;
     min-height: 66px;
