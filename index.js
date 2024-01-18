@@ -362,7 +362,7 @@ const spaceTravelersHub = {
     alt: 'Space Traveler\'s Hub project picture',
     link: 'https://spacejourneyhub.netlify.app',
     source: 'https://github.com/Matthieu96Code/spaceTravelersHub',
-    technologies: [html, css, js, react, redux],
+    technologies: [html, css, js, react, redux, bootstrap],
     technologies2: [
         {id: 1, name: 'HTML', link: 'https://developer.mozilla.org/en-US/docs/Web/HTML'},
         {id: 2, name: 'CSS', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS'},
@@ -407,7 +407,24 @@ const bookstoreApp = {
     ]
 }
 
-const projectList = [togovilleJazz, bookstoreApp, spaceTravelersHub, gymElite];
+const tradingCorp = {
+    id: 9,
+    title: 'Trading Corp',
+    description: 'Embark on a journey of financial success with Trading Corp. Whether you are a day trader, institutional investor, or somewhere in between, our comprehensive solutions are tailored to meet your unique needs. Explore the possibilities, mitigate risks, and seize opportunities',
+    img: './assets/images/trading-corp.png',
+    alt: 'tradingCorp project picture',
+    link: 'https://trading-corp.vercel.app/',
+    source: 'https://github.com/Matthieu96Code/trading-corp',
+    technologies: [nextjs, tailwindcss],
+    technologies2: [
+        {id: 1, name: 'HTML', link: 'https://developer.mozilla.org/en-US/docs/Web/HTML'},
+        {id: 2, name: 'CSS', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS'},
+        {id: 3, name: 'JavaScript', link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'},
+    ]
+}
+
+
+const projectList = [togovilleJazz, bookstoreApp, spaceTravelersHub, tradingCorp];
 
 // ---------------------------
 // Projects list population   |
