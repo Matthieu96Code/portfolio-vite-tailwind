@@ -423,8 +423,39 @@ const tradingCorp = {
     ]
 }
 
+const icsl = {
+    id: 10,
+    title: 'International Christian School of Lomé',
+    description: 'The website primarily aims to introduce the school, highlight its educational approach and facilities, and allow parents and other interested visitors to get in touch with the institution. The website provides contact information that enables visitors to communicate directly with the school.',
+    img: './assets/images/icsl.png',
+    alt: 'International Christian School of Lomé project picture',
+    link: 'https://internationalchristianschooloflome.com',
+    source: 'https://internationalchristianschooloflome.com',
+    technologies: [wordpress, php, html, css],
+    technologies2: [
+        {id: 1, name: 'HTML', link: 'https://developer.mozilla.org/en-US/docs/Web/HTML'},
+        {id: 2, name: 'CSS', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS'},
+        {id: 3, name: 'JavaScript', link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'},
+    ]
+}
 
-const projectList = [togovilleJazz, bookstoreApp, spaceTravelersHub, tradingCorp];
+const wafcogwm = {
+    id: 11,
+    title: 'West Africa Francophone Church Of God Word Missions',
+    description: 'It is an institutional and religious website designed to present the organization, share its Christian resources, communicate its activities, and facilitate interactions with visitors. It also features a calendar section that allows users to create prayer rooms and schedule groups or individuals.',
+    img: './assets/images/wafcogwm.png',
+    alt: 'wafcogwm project picture',
+    link: 'https://wafcogwm.org/',
+    source: 'https://wafcogwm.org/',
+    technologies: [laravel, php, html, css],
+    technologies2: [
+        {id: 1, name: 'HTML', link: 'https://developer.mozilla.org/en-US/docs/Web/HTML'},
+        {id: 2, name: 'CSS', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS'},
+        {id: 3, name: 'JavaScript', link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'},
+    ]
+}
+
+const projectList = [wafcogwm, bookstoreApp, icsl, tradingCorp];
 
 // ---------------------------
 // Projects list population   |
